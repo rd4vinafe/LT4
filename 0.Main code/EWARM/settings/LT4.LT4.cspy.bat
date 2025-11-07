@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\1.MCU\STM32\1.Projects\LT4\EWARM\settings\LT4.LT4.general.xcl" --backend -f "D:\1.MCU\STM32\1.Projects\LT4\EWARM\settings\LT4.LT4.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\1.MCU\STM32\1.Projects\LT4\0.Main code\EWARM\settings\LT4.LT4.general.xcl" --backend -f "D:\1.MCU\STM32\1.Projects\LT4\0.Main code\EWARM\settings\LT4.LT4.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\1.MCU\STM32\1.Projects\LT4\EWARM\settings\LT4.LT4.general.xcl" "--debug_file=%~1" --backend -f "D:\1.MCU\STM32\1.Projects\LT4\EWARM\settings\LT4.LT4.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\1.MCU\STM32\1.Projects\LT4\0.Main code\EWARM\settings\LT4.LT4.general.xcl" "--debug_file=%~1" --backend -f "D:\1.MCU\STM32\1.Projects\LT4\0.Main code\EWARM\settings\LT4.LT4.driver.xcl" 
 
 @echo off 
 :end

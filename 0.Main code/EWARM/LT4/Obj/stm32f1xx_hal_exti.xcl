@@ -1,38 +1,38 @@
-"D:\1.MCU\STM32\1.Projects\LT4\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c"
+"D:\1.MCU\STM32\1.Projects\LT4\0.Main code\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Obj\stm32f1xx_hal_exti.pbi.dep
+D:\1.MCU\STM32\1.Projects\LT4\0.Main code\EWARM\LT4\Obj\stm32f1xx_hal_exti.pbi.dep
 -o
 stm32f1xx_hal_exti.pbi
 -I
-D:\1.MCU\STM32\1.Projects\LT4\Drivers\STM32F1xx_HAL_Driver\Src
+D:\1.MCU\STM32\1.Projects\LT4\0.Main code\Drivers\STM32F1xx_HAL_Driver\Src
 -I
-D:\1.MCU\STM32\1.Projects\LT4\EWARM/../Core/Inc
+D:\1.MCU\STM32\1.Projects\LT4\0.Main code\EWARM/../Core/Inc
 -I
-D:\1.MCU\STM32\1.Projects\LT4\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc
+D:\1.MCU\STM32\1.Projects\LT4\0.Main code\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc
 -I
-D:\1.MCU\STM32\1.Projects\LT4\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy
+D:\1.MCU\STM32\1.Projects\LT4\0.Main code\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy
 -I
-D:\1.MCU\STM32\1.Projects\LT4\EWARM/../Drivers/CMSIS/Device/ST/STM32F1xx/Include
+D:\1.MCU\STM32\1.Projects\LT4\0.Main code\EWARM/../Drivers/CMSIS/Device/ST/STM32F1xx/Include
 -I
-D:\1.MCU\STM32\1.Projects\LT4\EWARM/../Drivers/CMSIS/Include
+D:\1.MCU\STM32\1.Projects\LT4\0.Main code\EWARM/../Drivers/CMSIS/Include
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\inc\c
 -I
-D:\1.MCU\STM32\1.Projects\LT4\Core\Inc
+D:\1.MCU\STM32\1.Projects\LT4\0.Main code\Core\Inc
 -I
-D:\1.MCU\STM32\1.Projects\LT4\Drivers\STM32F1xx_HAL_Driver\Inc
+D:\1.MCU\STM32\1.Projects\LT4\0.Main code\Drivers\STM32F1xx_HAL_Driver\Inc
 -I
-D:\1.MCU\STM32\1.Projects\LT4\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy
+D:\1.MCU\STM32\1.Projects\LT4\0.Main code\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy
 -I
-D:\1.MCU\STM32\1.Projects\LT4\Drivers\CMSIS\Device\ST\STM32F1xx\Include
+D:\1.MCU\STM32\1.Projects\LT4\0.Main code\Drivers\CMSIS\Device\ST\STM32F1xx\Include
 -I
-D:\1.MCU\STM32\1.Projects\LT4\Drivers\CMSIS\Include
+D:\1.MCU\STM32\1.Projects\LT4\0.Main code\Drivers\CMSIS\Include
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

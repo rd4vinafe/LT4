@@ -1,40 +1,61 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.40.2.214/W32 for ARM                  07/Nov/2025  08:26:25
+# IAR ELF Linker V8.40.2.214/W32 for ARM                  07/Nov/2025  09:57:07
 # Copyright 2007-2019 IAR Systems AB.
 #
-#    Output file  =  D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Exe\LT4.out
-#    Map file     =  D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\List\LT4.map
+#    Output file  =
+#        D:\1.MCU\STM32\1.Projects\LT4\0.Main code\EWARM\LT4\Exe\LT4.out
+#    Map file     =
+#        D:\1.MCU\STM32\1.Projects\LT4\0.Main code\EWARM\LT4\List\LT4.map
 #    Command line =
-#        -f C:\Users\Duong\AppData\Local\Temp\EWE7BE.tmp
-#        (D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Obj\ADS1220.o
-#        D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Obj\main.o
-#        D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Obj\sof_i2c.o
-#        D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Obj\startup_stm32f103xb.o
-#        D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Obj\stm32f1xx_hal.o
-#        D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Obj\stm32f1xx_hal_cortex.o
-#        D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Obj\stm32f1xx_hal_dma.o
-#        D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Obj\stm32f1xx_hal_exti.o
-#        D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Obj\stm32f1xx_hal_flash.o
-#        D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Obj\stm32f1xx_hal_flash_ex.o
-#        D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Obj\stm32f1xx_hal_gpio.o
-#        D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Obj\stm32f1xx_hal_gpio_ex.o
-#        D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Obj\stm32f1xx_hal_i2c.o
-#        D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Obj\stm32f1xx_hal_msp.o
-#        D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Obj\stm32f1xx_hal_pwr.o
-#        D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Obj\stm32f1xx_hal_rcc.o
-#        D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Obj\stm32f1xx_hal_rcc_ex.o
-#        D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Obj\stm32f1xx_hal_spi.o
-#        D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Obj\stm32f1xx_hal_tim.o
-#        D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Obj\stm32f1xx_hal_tim_ex.o
-#        D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Obj\stm32f1xx_it.o
-#        D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Obj\system_stm32f1xx.o
-#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull
-#        --no_out_extension -o
-#        D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Exe\LT4.out --map
-#        D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\List\LT4.map --config
-#        D:\1.MCU\STM32\1.Projects\LT4\EWARM/stm32f103xb_flash.icf
-#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#        -f C:\Users\Duong\AppData\Local\Temp\EWEE0D.tmp
+#        ("D:\1.MCU\STM32\1.Projects\LT4\0.Main code\EWARM\LT4\Obj\ADS1220.o"
+#        "D:\1.MCU\STM32\1.Projects\LT4\0.Main code\EWARM\LT4\Obj\main.o"
+#        "D:\1.MCU\STM32\1.Projects\LT4\0.Main
+#        code\EWARM\LT4\Obj\startup_stm32f103xb.o"
+#        "D:\1.MCU\STM32\1.Projects\LT4\0.Main
+#        code\EWARM\LT4\Obj\stm32f1xx_hal.o"
+#        "D:\1.MCU\STM32\1.Projects\LT4\0.Main
+#        code\EWARM\LT4\Obj\stm32f1xx_hal_cortex.o"
+#        "D:\1.MCU\STM32\1.Projects\LT4\0.Main
+#        code\EWARM\LT4\Obj\stm32f1xx_hal_dma.o"
+#        "D:\1.MCU\STM32\1.Projects\LT4\0.Main
+#        code\EWARM\LT4\Obj\stm32f1xx_hal_exti.o"
+#        "D:\1.MCU\STM32\1.Projects\LT4\0.Main
+#        code\EWARM\LT4\Obj\stm32f1xx_hal_flash.o"
+#        "D:\1.MCU\STM32\1.Projects\LT4\0.Main
+#        code\EWARM\LT4\Obj\stm32f1xx_hal_flash_ex.o"
+#        "D:\1.MCU\STM32\1.Projects\LT4\0.Main
+#        code\EWARM\LT4\Obj\stm32f1xx_hal_gpio.o"
+#        "D:\1.MCU\STM32\1.Projects\LT4\0.Main
+#        code\EWARM\LT4\Obj\stm32f1xx_hal_gpio_ex.o"
+#        "D:\1.MCU\STM32\1.Projects\LT4\0.Main
+#        code\EWARM\LT4\Obj\stm32f1xx_hal_i2c.o"
+#        "D:\1.MCU\STM32\1.Projects\LT4\0.Main
+#        code\EWARM\LT4\Obj\stm32f1xx_hal_msp.o"
+#        "D:\1.MCU\STM32\1.Projects\LT4\0.Main
+#        code\EWARM\LT4\Obj\stm32f1xx_hal_pwr.o"
+#        "D:\1.MCU\STM32\1.Projects\LT4\0.Main
+#        code\EWARM\LT4\Obj\stm32f1xx_hal_rcc.o"
+#        "D:\1.MCU\STM32\1.Projects\LT4\0.Main
+#        code\EWARM\LT4\Obj\stm32f1xx_hal_rcc_ex.o"
+#        "D:\1.MCU\STM32\1.Projects\LT4\0.Main
+#        code\EWARM\LT4\Obj\stm32f1xx_hal_spi.o"
+#        "D:\1.MCU\STM32\1.Projects\LT4\0.Main
+#        code\EWARM\LT4\Obj\stm32f1xx_hal_tim.o"
+#        "D:\1.MCU\STM32\1.Projects\LT4\0.Main
+#        code\EWARM\LT4\Obj\stm32f1xx_hal_tim_ex.o"
+#        "D:\1.MCU\STM32\1.Projects\LT4\0.Main
+#        code\EWARM\LT4\Obj\stm32f1xx_it.o"
+#        "D:\1.MCU\STM32\1.Projects\LT4\0.Main
+#        code\EWARM\LT4\Obj\system_stm32f1xx.o" --redirect _Printf=_PrintfFull
+#        --redirect _Scanf=_ScanfFull --no_out_extension -o
+#        "D:\1.MCU\STM32\1.Projects\LT4\0.Main code\EWARM\LT4\Exe\LT4.out"
+#        --map "D:\1.MCU\STM32\1.Projects\LT4\0.Main
+#        code\EWARM\LT4\List\LT4.map" --config
+#        "D:\1.MCU\STM32\1.Projects\LT4\0.Main
+#        code\EWARM/stm32f103xb_flash.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
 #
 ###############################################################################
 
@@ -221,7 +242,7 @@ command line/config:
     -------------------------------------------------
     Total:
 
-D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Obj: [1]
+D:\1.MCU\STM32\1.Projects\LT4\0.Main code\EWARM\LT4\Obj: [1]
     ADS1220.o                   722
     main.o                    1'054               312
     startup_stm32f103xb.o       408
@@ -444,7 +465,7 @@ uwTickFreq              0x2000'0000    0x1  Data  Gb  stm32f1xx_hal.o [1]
 uwTickPrio              0x2000'0008    0x4  Data  Gb  stm32f1xx_hal.o [1]
 
 
-[1] = D:\1.MCU\STM32\1.Projects\LT4\EWARM\LT4\Obj
+[1] = D:\1.MCU\STM32\1.Projects\LT4\0.Main code\EWARM\LT4\Obj
 [2] = dl7M_tlf.a
 [3] = m7M_tl.a
 [4] = rt7M_tl.a
