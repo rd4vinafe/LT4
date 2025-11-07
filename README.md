@@ -30,3 +30,4 @@ Triac control
 
 You can flash these test programs directly to an Arduino Uno or any other compatible board using the same framework.
 Just make sure to adjust the I2C pins to match your hardware configuration.
+![alt text](image.png)
